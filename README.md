@@ -8,11 +8,6 @@
 
 主要功能：闹钟、天气预报、计时器、录音、城市管理、城市搜索、自动定位、主题切换、扫描二维码，创造二维码、清除缓存、一键清理等。
 
-### 扫码下载:
-
-![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/qrcode.png)
-
-[下载链接](http://zhushou.360.cn/detail/index/soft_id/3242718)
 
 截图
 --------------
@@ -84,10 +79,6 @@
 ---------------
 在开发天气闹钟期间也遇到了大大小小的问题，但是最终大部分问题都得以解决。由于本人文笔不佳再加上业余时间不多，很多问题的思考解决过程没有及时总结记录，深感遗憾::>_<::，今后我会尽量养成即使总结的好习惯!方便自己的同时也希望能帮到更多的人。
 
-邮箱: kaku201313@163.com
-
-CSDN: http://blog.csdn.net/kaku2013
-
 
 后续
 ---------------
@@ -97,26 +88,6 @@ CSDN: http://blog.csdn.net/kaku2013
 PS
 ---------------
 闹钟的主要任务当然就是准时响铃，准时响铃的前提是程序没有被kill掉，但是鉴于目前的Adroid的生态系统，想做到不被系统和第三方软件kill还是有一定的限制和难度的，对于这个问题本人也是绞尽脑汁，网上说的各种方法也都试遍了，大多也都没有效果，目前对于Android5.0以上系统最后也没能有一个完美的解决办法。为了确保能按时响铃，还是建议将天气闹钟加入保护名单。当然如果各位大神有什么好的办法还望不吝赐教，小弟不胜感激。
-
-License
----------------
-  ```
-   Copyright (c) 2016 咖枯 <kaku201313@163.com>
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
-
-
 
 
 
