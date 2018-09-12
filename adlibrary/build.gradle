@@ -1,0 +1,45 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.3"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 10
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    resourcePrefix "ad_prefix"
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/GDTUnionSDK.4.11.552.min.jar')
+    compile 'com.facebook.fresco:fresco:1.7.1'
+    compile files('libs/umeng-analytics-v6.1.0.jar')
+    compile files('libs/jsoup-1.7.3.jar')
+    compile files('libs/ormlite-android-4.31.jar')
+    compile files('libs/ormlite-core-4.31.jar')
+    compile files('libs/winszipaes_zh_CN_supported_20120416.jar')
+    implementation project(':library')
+}

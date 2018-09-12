@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.yingyongduoduo.ad">
+
+    <application android:allowBackup="true"
+        android:supportsRtl="true">
+        <!-- 广点通开始 -->
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.qq.e.ads.ADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <!-- 广点通结束 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5ae962ada40fa357c900003d" />
+
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="baidu" />
+
+    </application>
+
+</manifest>

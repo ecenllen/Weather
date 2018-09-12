@@ -1,0 +1,4 @@
+include ':PagerSlidingTabStrip', ':daemon', ':SwipeBackLayout', ':litepal', ':adlibrary', ':library'
+include ':WeAC'
+include ':PullToRefresh'
+include ':yqlibrary'
