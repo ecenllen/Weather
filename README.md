@@ -1,4 +1,4 @@
-# 多多 天气闹钟
+# 天气闹钟
 
 ![image](https://github.com/kaku2015/WeatherAlarmClock/blob/master/screenshots/logo.png)
 
